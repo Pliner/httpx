@@ -9,4 +9,4 @@ export SOURCE_FILES="httpx tests"
 set -x
 
 ${PREFIX}ruff --fix $SOURCE_FILES
-${PREFIX}black --target-version=py37 $SOURCE_FILES
+${PREFIX}black --target-version=py38 $SOURCE_FILES
